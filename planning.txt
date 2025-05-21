@@ -1,1 +1,6 @@
-planning.txt
+Create tables, models for :
+a) Product : id, name, description, price, stock
+b) CartItem : id, product_id(foreign key from product id), quantity
+c) Order : id, items, status, total_price
+
+
